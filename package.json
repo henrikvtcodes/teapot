@@ -4,7 +4,12 @@
   "description": "http 418",
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-workers":"webpack",
+    "build-node":"tsc",
+    "start-node":"node ./dist/index.js",
+    "start-workers":"node ./dist/bundle.js",
+    "node":" tsc && node ./dist/index.js",
+    "workers":"webpack && node ./dist/bundle.js"
   },
   "author": "henrik van tassell",
   "license": "MIT",
