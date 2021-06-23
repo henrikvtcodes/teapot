@@ -1,5 +1,6 @@
 const path = require('path')
 
+
 module.exports = {
   entry: {
     bundle: path.join(__dirname, './src/index.ts'),
@@ -18,7 +19,8 @@ module.exports = {
 
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.json'],
-    plugins: [],
+    plugins: [
+    ],
   },
 
   module: {
