@@ -11,10 +11,9 @@ How to use this stupid thing, because why not. <br/>
 **Root URL:**
 ### Routes
 #### Active
-No currently available routes.
-#### Inactive
 - `GET /`: Just yells that it's a teapot.
 - `GET /drinks/list`: Responds with a JSON object describing all of its drinks. Dare you try to order anything other than tea, you will recieve an HTTP `418` code.
+#### Inactive
 - `GET /drinks/:drink`: If its tea, you'll get an image of a tea cup.
 
 ## Planned Features
